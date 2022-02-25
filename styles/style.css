@@ -3,16 +3,20 @@
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: rgb(221, 93, 7);
+  background-color: #ffb74d;
   position: sticky;
   width: 100%;
   padding: 0;
   margin: 0;
   
+  
+  
 }
 
 li {
   float: right;
+  font-family: 'Balsamiq Sans','Work Sans', sans-serif;
+  
   
 }
 
@@ -20,24 +24,83 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 18px 20px;
+  padding: 38px 40px;
   text-decoration: none;
+  font-family: 'Balsamiq Sans','Work Sans', sans-serif;
   
 }
 
 /* Para cambiar el color cuando pasa el mouse por encima */
 li a:hover {
-  background-color: rgb(175, 128, 202);
+  background-color: #c88719
   
 }
 
 .nuestra-apuesta{
   text-align: center;
   text-emphasis-color: rgb(0,0,0);
+  margin-top: 50px;
 
 }
 
-
 img {
   filter: grayscale(100%);
+}
+.img-tamanno{
+  height: 5px;
+  width: 5px;
+}
+
+h1{
+  font-family: 'Balsamiq Sans','Raleway','Work Sans', 'sans-serif';
+  
+ 
+}
+
+.delett-space-nav-carroucel{
+  margin-bottom: -17px;
+}
+
+/*CARD OR GRID DESING*/
+/*
+#flexbox{
+  display: flex;
+  height: 100px;
+  column-gap: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#flexbox > div{
+  border: 1px solid blanchedalmond;
+  background-color: #80deea;
+  flex: auto;
+}
+*/
+
+#grid {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  column-gap: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+
+#grid > div {
+  border: 1px solid blanchedalmond;
+  background-color: #80deea;
+}
+
+#style-card-grid-text{
+  text-align: center;
+  font-family: 'Balsamiq Sans','Work Sans', sans-serif;
+  padding-top: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 30px;
+
+  
 }
