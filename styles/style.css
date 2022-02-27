@@ -91,7 +91,13 @@ h1{
   text-align: center;
   text-emphasis-color: #4bacb8;
   margin-top: 180px;
-  background-color: #ffffff;
- 
-
+  background-color: #4bacb8;
+  padding-top: 30px;
 }
+
+/*tamaño imagenes slider proyectos en curso*/
+#id-tamanno-img{
+  height: 400px;
+  padding: 20px;
+}
+
