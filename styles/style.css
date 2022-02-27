@@ -35,7 +35,7 @@ li a:hover {
   background-color: #c88719
   
 }
-
+/*NUESTRA APUESTA*/
 .nuestra-apuesta{
   text-align: center;
   text-emphasis-color: rgb(0,0,0);
@@ -46,10 +46,7 @@ li a:hover {
 img {
   filter: grayscale(100%);
 }
-.img-tamanno{
-  height: 5px;
-  width: 5px;
-}
+
 
 h1{
   font-family: 'Balsamiq Sans','Raleway','Work Sans', 'sans-serif';
@@ -62,31 +59,16 @@ h1{
 }
 
 /*CARD OR GRID DESING*/
-/*
-#flexbox{
-  display: flex;
-  height: 100px;
-  column-gap: 30px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-#flexbox > div{
-  border: 1px solid blanchedalmond;
-  background-color: #80deea;
-  flex: auto;
-}
-*/
 
 #grid {
   display: grid;
   height: 100px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  column-gap: 30px;
+  column-gap: 35px;
   margin-left: 35px;
   margin-right: 35px;
-  border-radius: 10px;
+
 }
 
 #grid > div {
@@ -98,9 +80,18 @@ h1{
   text-align: center;
   font-family: 'Balsamiq Sans','Work Sans', sans-serif;
   padding-top: 30px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 30px;
+  border-radius: 10px;
+}
 
-  
+/*PROYECTOS EN CURSO*/
+.proyectos-en-curso{
+  text-align: center;
+  text-emphasis-color: #4bacb8;
+  margin-top: 180px;
+  background-color: #ffffff;
+ 
+
 }
