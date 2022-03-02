@@ -3,7 +3,7 @@
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #ffb74d;
+  background-color: #CD760F;
   position: sticky;
   width: 100%;
   padding: 0;
@@ -43,23 +43,27 @@ li a:hover {
 
 }
 
+/*FILTROS DE IMAGENES*/
 img {
-  filter: grayscale(100%);
+  filter:  brightness(50%);;
 }
 
 
 h1{
-  font-family: 'Balsamiq Sans','Raleway','Work Sans', 'sans-serif';
-  
- 
+  font-family: 'Balsamiq Sans','Raleway','Work Sans', 'sans-serif'; 
 }
-
+h5{
+  font-family: 'Balsamiq Sans','Raleway','Work Sans', 'sans-serif'; 
+}
+p{
+  font-family: 'Balsamiq Sans','Raleway','Work Sans', 'sans-serif'; 
+}
 .delett-space-nav-carroucel{
   margin-bottom: -17px;
 }
 
-/*CARD OR GRID DESING*/
-
+/*NUESTROS PROYECTOS CARD OR GRID DESING*/
+/*
 #grid {
   display: grid;
   height: 100px;
@@ -70,8 +74,20 @@ h1{
   margin-right: 35px;
 
 }
+*/
+#separate-space-betwen-card {
+  
+  column-gap: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+  
+  
+}
 
-#grid > div {
+
+
+#separate-space-betwen-card > div {
   border: 1px solid blanchedalmond;
   background-color: #80deea;
 }
@@ -90,9 +106,10 @@ h1{
 .proyectos-en-curso{
   text-align: center;
   text-emphasis-color: #4bacb8;
-  margin-top: 180px;
-  background-color: #4bacb8;
-  padding-top: 30px;
+  margin-top: 45px;
+  background-color: #ffff
+  ;
+  padding-top: 20px;
 }
 
 /*tamaño imagenes slider proyectos en curso*/
