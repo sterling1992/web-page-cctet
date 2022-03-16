@@ -1,40 +1,65 @@
 
 
-ul {
-  list-style-type: none;
-  overflow: hidden;
+/*STYLE DROPDOWN BOTTOM*/
+.menu-btn-backgroun-color{
   background-color: #CD760F;
-  position: sticky;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  
-  
-  
+  padding-top: 35px;
+  padding-bottom: 35px;  
 }
 
-li {
-  float: right;
+/* Estilo de botón Drpdown */
+.dropbtn {
   font-family: 'Balsamiq Sans','Work Sans', sans-serif;
-  
-  
-}
-
-li a {
-  display: block;
+  background-color: #CD760F;
   color: white;
-  text-align: center;
-  padding: 38px 40px;
-  text-decoration: none;
-  font-family: 'Balsamiq Sans','Work Sans', sans-serif;
-  
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* Ubica los elementos horizontalmente en el contenedor <div> */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-/* Para cambiar el color cuando pasa el mouse por encima */
-li a:hover {
-  background-color: #c88719
-  
+/*desplega Submenú, está oculto por defecto*/
+.dropdown-content {
+  font-family: 'Balsamiq Sans','Work Sans', sans-serif;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.432);
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
+
+
+/*Submenús dentro del menú desplegable*/
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*Cambia el color al pasar el mouse por los submenús*/
+.dropdown-content a:hover {background-color: rgba(0, 0, 0, 0.233)}
+
+/*Muestra el menú desplegable al pasar el muse por el menú padre*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Cambiar el color de fondo del botón desplegable cuando se muestra el contenido del menú desplegable*/
+/*
+.dropdown:hover .dropbtn {
+  background-color: #CD760F;
+}
+*/
+
+
 /*NUESTRA APUESTA*/
 .nuestra-apuesta{
   text-align: center;
